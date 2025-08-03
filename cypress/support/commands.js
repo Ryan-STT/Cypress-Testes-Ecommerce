@@ -8,3 +8,9 @@ Cypress.Commands.add(
     }
     cy.get('[data-test="login-button"]').click();
 });
+
+Cypress.Commands.add('sidebar', () => {
+        cy.url().should('include', '/inventory.html');
+        cy.get('.title').should('contain', 'Products');
+        cy.get('#react-burger-menu-btn').click();
+});
