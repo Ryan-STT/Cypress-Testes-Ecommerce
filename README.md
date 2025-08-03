@@ -1,4 +1,4 @@
-# Automação de Testes Web com Cypress - Sauce Demo
+# Automação de Testes Web com Cypress
 
 Este repositório contém um projeto de automação de testes End-to-End (E2E) desenvolvido para o site de demonstração [Sauce Demo](https://www.saucedemo.com/). O objetivo principal é aplicar e demonstrar habilidades em testes automatizados de interface web.
 
