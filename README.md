@@ -28,7 +28,6 @@ Sempre que houver um commit na branch principal ou a abertura de um Pull Request
 - Checkout do código.
 - Instalação das dependências com `npm ci`.
 - Execução dos testes automatizados Cypress em ambiente Ubuntu.
-- (Opcional) Upload de screenshots e vídeos dos testes em caso de falha.
 
 📄 Configuração do Workflow  
 O arquivo de configuração está localizado em:  
