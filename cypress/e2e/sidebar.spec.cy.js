@@ -37,8 +37,6 @@ describe('Função dos itens da Sidebar', () => {
     });
 
     // it('Verificar About', function () {
-    //     cy.login(this.users.validUser.username, this.users.validUser.password);
-    //     cy.sidebar()
     //     cy.get('#about_sidebar_link').click();
     //     cy.url().should('eq', 'https://saucelabs.com');
     // });
@@ -51,8 +49,6 @@ describe('Função dos itens da Sidebar', () => {
     });
 
     // it('Verificar Reset App State', function () {
-    //     cy.login(this.users.validUser.username, this.users.validUser.password);
-    //     cy.sidebar()
     //     cy.get('#reset_sidebar_link').click();
     // });
 });
