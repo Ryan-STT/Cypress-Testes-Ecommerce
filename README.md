@@ -25,6 +25,7 @@ O projeto cobrirá os seguintes fluxos de usuário:
 Este projeto utiliza GitHub Actions para rodar automaticamente todos os testes Cypress a cada push ou pull request na branch main. Isso garante que o código esteja sempre testado e validado de forma automatizada, aumentando a qualidade e a confiabilidade das entregas.
 
 🚦 Como funciona
+
 Sempre que houver um commit na branch principal ou a abertura de um Pull Request:
 
 - Checkout do código.
@@ -32,11 +33,6 @@ Sempre que houver um commit na branch principal ou a abertura de um Pull Request
 - Instalação das dependências com npm ci.
 
 - Execução dos testes automatizados Cypress em ambiente Ubuntu
-
-📄 Configuração do Workflow
-
-O arquivo de configuração está localizado em:
-.github/workflows/cypress.yml
 
 ## 📂 Estrutura de Pastas
 
