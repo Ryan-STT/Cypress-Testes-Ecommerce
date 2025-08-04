@@ -1,4 +1,4 @@
-## 🏷️ Status dos Testes
+### 🏷️ Status dos Testes
 ![Cypress CI](https://github.com/Ryan-STT/cypress-testes-ecommerce/actions/workflows/cypress.yml/badge.svg)
 
 
