@@ -37,11 +37,16 @@ O arquivo de configuração está localizado em:
 
 O projeto segue a estrutura padrão gerada pelo Cypress, facilitando a organização dos testes, comandos e configurações.
 
-/cypress  
+/cypress
+
 /e2e (Onde nossos arquivos de teste (spec.cy.js) ficarão)
+
 /fixtures (Massa de dados para os testes (ex: usuários, senhas))
+
 /support (Comandos reutilizáveis e configurações globais)
+
 cypress.config.js (Arquivo principal de configuração do Cypress)
+
 package.json (Gerenciador de dependências do projeto)
 
 ## ⚙️ Como Executar o Projeto
