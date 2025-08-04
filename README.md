@@ -1,3 +1,7 @@
+## 🏷️ Status dos Testes
+![Cypress CI](https://github.com/Ryan-STT/cypress-testes-ecommerce/actions/workflows/cypress.yml/badge.svg)
+
+
 # Automação de Testes Web com Cypress
 
 Este repositório contém um projeto de automação de testes End-to-End (E2E) desenvolvido para o site de demonstração [Sauce Demo](https://www.saucedemo.com/). O objetivo principal é aplicar e demonstrar habilidades em testes automatizados de interface web.
@@ -16,6 +20,23 @@ O projeto cobrirá os seguintes fluxos de usuário:
 - [ ] Navegação pelo inventário de produtos.
 - [ ] Adição e remoção de produtos do carrinho de compras.
 - [ ] Fluxo completo de checkout.
+
+## 🛠️ Integração Contínua (CI/CD)
+Este projeto utiliza GitHub Actions para rodar automaticamente todos os testes Cypress a cada push ou pull request na branch main. Isso garante que o código esteja sempre testado e validado de forma automatizada, aumentando a qualidade e a confiabilidade das entregas.
+
+🚦 Como funciona
+Sempre que houver um commit na branch principal ou a abertura de um Pull Request:
+
+- Checkout do código.
+
+- Instalação das dependências com npm ci.
+
+- Execução dos testes automatizados Cypress em ambiente Ubuntu
+
+📄 Configuração do Workflow
+
+O arquivo de configuração está localizado em:
+.github/workflows/cypress.yml
 
 ## 📂 Estrutura de Pastas
 
